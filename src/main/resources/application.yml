@@ -8,9 +8,9 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: jdbc:postgresql://host/database # Додайте власний HOST та базу даних
-    username: user # додайте власний логін
-    password: password # додайте власний пароль
+    url: jdbc:postgresql://dpg-d05p80hr0fns73flk90g-a/benzerukdb
+    username: polina
+    password: HyrFDTrxVMehsVNN5uoJWG9PjVh6ywFE
     driverClassName: org.postgresql.Driver
   sql:
     init:
