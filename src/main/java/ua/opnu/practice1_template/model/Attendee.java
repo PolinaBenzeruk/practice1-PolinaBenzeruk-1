@@ -3,6 +3,8 @@ package ua.opnu.practice1_template.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "attendees")
 @Getter

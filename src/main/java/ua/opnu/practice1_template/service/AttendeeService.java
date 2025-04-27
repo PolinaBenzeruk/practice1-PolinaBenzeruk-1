@@ -3,12 +3,12 @@ package ua.opnu.practice1_template.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ua.opnu.practice1_template.model.Attendee;
-import ua.opnu.practice1_template.repository.attendeeRepository;
+import ua.opnu.practice1_template.repository.AttendeeRepository;
 
 @Service
-public class attendeeService {
+public class AttendeeService {
 
-    private final attendeeRepository attendeeRepository;
+    private final AttendeeRepository AttendeeRepository;
 
     @Autowired
     public attendeeService(attendeeRepository attendeeRepository) {

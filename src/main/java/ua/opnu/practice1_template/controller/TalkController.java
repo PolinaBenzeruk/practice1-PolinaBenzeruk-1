@@ -43,3 +43,5 @@ public class talkController {
         talkService.deleteTalk(id);
     }
 }
+
+
